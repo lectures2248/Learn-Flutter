@@ -309,13 +309,6 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 }
 ```
-
----
-
-```
-******---[ SplashScreen Complete ]---******
-```
-
 ---
 
 ## Part 3 — Login Screen Structure (`login_screen.dart`)
