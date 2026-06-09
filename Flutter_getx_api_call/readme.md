@@ -124,7 +124,7 @@ PostModel({
 This is a named constructor. The `required` keyword means all four fields must be provided when you create a PostModel object. You cannot create a PostModel with missing data. This prevents bugs.
 
 ### What Is a Factory Constructor?
-
+  A factory constructor is a special constructor that does some work before creating and returning an object — unlike a         regular constructor which just directly creates one. In our case, that "work" is reading values out of a JSON dictionary     and packaging them into a clean PostModel object.
 
 ```dart
 factory PostModel.fromJson(Map<String, dynamic> json) {
