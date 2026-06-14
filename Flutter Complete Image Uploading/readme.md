@@ -321,7 +321,7 @@ If any field fails:
 
 Error messages appear. 
 
-================================================== PART 2 - IMAGE PICKER USING XFILE ================================================== 
+## **PART 2 - IMAGE PICKER USING XFILE ** 
 
 We will use: 
 
@@ -452,8 +452,8 @@ For mobile later you can use:
 Image.file() 
 
 when required. 
+## **PART 3 - IMAGE UPLOAD TO SUPABASE ** 
 
-================================================== PART 3 - IMAGE UPLOAD TO SUPABASE ================================================== 
 
 Now we will upload image to Storage. 
 
