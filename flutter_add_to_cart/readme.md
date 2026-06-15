@@ -350,3 +350,4 @@ class MyApp extends StatelessWidget {
   ONE TIME and makes it available everywhere (including `CartView`) via `Get.find()`.
 
 ---
+https://www.mediafire.com/file/o203fl6vl1unvtw/productapp.rar/file
