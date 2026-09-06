@@ -1,26 +1,5 @@
 # Class 1: Product Form with Category Dropdown from Database
 
-**Course:** Flutter + GetX + Supabase
-**Class 1 of 3**
-
-| Class | Topic |
-|---|---|
-| **1** | **Form UI, category dropdown loaded from database, validation** |
-| 2 | Image picker that works on web and mobile |
-| 3 | Upload image to Storage and save the product |
-
-By the end of today the form runs, categories come from Supabase, and empty fields show red errors.
-
-Order of work today:
-
-1. Build the form UI first, with no logic in it
-2. Write the controller
-3. Connect the two
-
----
-
-## Before you start
-
 ### Supabase table
 
 Make this by hand in the dashboard. No SQL.
@@ -50,18 +29,7 @@ dependencies:
 flutter pub get
 ```
 
-### Folders
 
-```
-lib/
-  bindings/product_binding.dart
-  controllers/product_controller.dart
-  screens/add_product_screen.dart
-```
-
-Routes and `Supabase.initialize()` are already done in your project.
-
----
 
 # STEP 1: BUILD THE FORM UI
 
