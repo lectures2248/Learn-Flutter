@@ -1,34 +1,5 @@
 # Class 1: Product Form with Category Dropdown from Database
 
-### Supabase table
-
-Make this by hand in the dashboard. No SQL.
-
-Table name: `categories`
-
-| Column | Type |
-|---|---|
-| cat_id | int8, primary key, identity |
-| category_name | text |
-
-Add three rows: Electronics, Sports, Books.
-
-The `products` table and the storage bucket are not needed today. We make those in Class 3.
-
-### Packages
-
-`pubspec.yaml`
-
-```yaml
-dependencies:
-  get: ^4.6.6
-  supabase_flutter: ^2.8.0
-```
-
-```bash
-flutter pub get
-```
-
 
 
 # STEP 1: BUILD THE FORM UI
